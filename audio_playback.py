@@ -33,6 +33,6 @@ audio = Audio()
 
 audio.play("outro_song")
 
-time.sleep(2)
+time.sleep(15)
 
 audio.stop()
