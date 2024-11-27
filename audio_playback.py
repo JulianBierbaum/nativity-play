@@ -12,7 +12,6 @@ class Audio:
         self.audio_thread = th.Thread(target=self._play_audio).start()
 
     def _play_audio(self):
-        
         try:
             pg.mixer.music.load(self.file_path)
             pg.mixer.music.play()
